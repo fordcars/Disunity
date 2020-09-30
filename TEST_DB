@@ -1,0 +1,137 @@
+<Disunity>
+      <resources>
+              <objectGeometryGroup>
+                      <path>chicken</path>
+                      <path>asdasd</path>
+              </objectGeometryGroup>
+
+              <objectGeometryGroup>
+                      <path>poooop</path>
+	              <path>FART</path>
+              </objectGeometryGroup>
+      </resources>
+
+      <resources>
+              <poop>asdas</poop>
+              <poop>Cake</poop>
+      </resources>
+</Disunity>
+
+
+
+
+
+
+
+
+
+
+
+{
+	[1] = {
+		["attr"] = { } ,
+		["type"] = element,
+		["name"] = resources,
+		["kids"] = {
+			[1] = {
+				["attr"] = { } ,
+				["type"] = element,
+				["name"] = objectGeometryGroup,
+				["kids"] = {
+					[1] = {
+						["attr"] = { } ,
+						["type"] = element,
+						["name"] = path,
+						["kids"] = {
+							[1] = {
+								["value"] = chicken,
+								["type"] = text,
+								["name"] = #text,
+								["cdata"] = false,
+							}
+						}
+					},
+					[2] = {
+						["attr"] = { } ,
+						["type"] = element,
+						["name"] = path,
+						["kids"] = {
+							[1] = {
+								["value"] = asdasd,
+								["type"] = text,
+								["name"] = #text,
+								["cdata"] = false,
+							}
+						}
+					}
+				}
+			},
+			[2] = {
+				["attr"] = { } ,
+				["type"] = element,
+				["name"] = objectGeometryGroup,
+				["kids"] = {
+					[1] = {
+						["attr"] = { } ,
+						["type"] = element,
+						["name"] = path,
+						["kids"] = {
+							[1] = {
+								["value"] = poooop,
+								["type"] = text,
+								["name"] = #text,
+								["cdata"] = false,
+							}
+						}
+					},
+					[2] = {
+						["attr"] = { } ,
+						["type"] = element,
+						["name"] = path,
+						["kids"] = {
+							[1] = {
+								["value"] = FART,
+								["type"] = text,
+								["name"] = #text,
+								["cdata"] = false
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	[2] = {
+		["attr"] = { } ,
+		["type"] = element,
+		["name"] = resources,
+		["kids"] = {
+			[1] = {
+				["attr"] = { } ,
+				["type"] = element,
+				["name"] = poop,
+				["kids"] = {
+					[1] = {
+						["value"] = asdas,
+						["type"] = text,
+						["name"] = #text,
+						["cdata"] = false,
+					}
+				}
+			},
+			[2] = {
+				["attr"] = { } ,
+				["type"] = element,
+				["name"] = poop,
+				["kids"] = {
+					[1] = {
+						["value"] = Cake,
+						["type"] = text,
+						["name"] = #text,
+						["cdata"] = false
+					}
+				}
+			}
+		}
+	}
+} 
